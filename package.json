@@ -1,0 +1,6 @@
+{
+  "main": "server.js",
+  "dependencies": {
+    "discord": "^0.8.2"
+  }
+}
