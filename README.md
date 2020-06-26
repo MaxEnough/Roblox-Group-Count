@@ -4,7 +4,7 @@
 Roblox Member Count Webhook
 =================
 
-### Everything you will need is in server.js.
+### Everything you will need is in index.js.
 
 
 FAQ
