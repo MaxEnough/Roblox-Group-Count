@@ -23,7 +23,7 @@ async function updateCount() {
       .send(embed)
       .setTitle("") //Title of Embed
       .setColor("#0099ff") //Color [HEX]
-      .setDescription(  `We are at **${members}** members.\n\n${goal - members} members to go till ${goal}!` );
+      .setDescription(  `We are at **${members}** members.\n\n${goal - members} members to go till ${goal}!` ); //Feel free to customize this to your fitting.
     webhook.send(embed);
 
     if (count == 0) {
@@ -36,15 +36,4 @@ async function updateCount() {
 setInterval(() => {
   updateCount();
 }, 10000);
-
-//Feel free to customize the description using the following varibles:
-
-/*
-members - Members the group has.
-goal - Member goal which can be sit in the constant above.
-
-
-I suggest you keep the Description the same unless you know what you are doing.
-*/
-
 
