@@ -16,9 +16,7 @@ async function updateCount() {
   );
   let members = response.data.memberCount;
   let count = 100;
-  console.log("got request");
   if (count < members) {
-    console.log(members, count);
 
     const embed = new client.RichEmbed();
     webhook
