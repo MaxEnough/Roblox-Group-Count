@@ -7,8 +7,8 @@ let group = 4382797; //Group ID
 let goal = 100000; //Member Goal
 
 const webhook = new client.WebhookClient(
-  "718957476643430194630", //Webhook ID
-  "kfsgCxKmx8dk47yECOYEW9ttGUwER9o9dfs3344dDpVxBztbLdX1BOmSvmoBqlmAtv_4W" //Webhook Token
+  "id", //Webhook ID
+  "token" //Webhook Token
 );
 async function updateCount() {
   let response = await axios.get(
